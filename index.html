@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Valentine's Week</title>
+</head>
+<body>
+    <h2> Fruits </h2>
+    <div  class="table" id="table">
+    <table >
+        <tr>
+            <th> Fruit Name</thead>
+            <th> Fruit Image</thead>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td><button onclick="main();apple()" >Click Me</button></td>
+        </tr>
+        <tr>
+            <td>Banana</td> 
+            <td><button onclick="main();banana()">Click Me</button></td>
+        </tr>
+        <tr>
+            <td>Kiwi</td>
+            <td><button onclick="main();kiwi()">Click Me</button></td>
+        </tr>
+        <tr>
+            <td>Lichi</td>
+            <td><button onclick="main();lichi()" >Click Me</button></td>
+        </tr>
+        <tr>
+            <td>Mango</td>
+            <td><button onclick="main();mango()">Click Me</button></td>
+        </tr>
+        
+    </table>
+        <button onclick="add()">Add Fruits</button>
+    </div>
+    
+    <div id="modal" class="modal">
+    <div id="display" class="display">
+        <img id="img">
+        <div class="out">
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    </div>
+    </div>
+    <p id="time"></p>
+    <script src="script.js"></script>
+    <script src="timer.js"></script>
+</body>
+</html>
